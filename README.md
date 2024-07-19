@@ -1,6 +1,6 @@
 **Hotel Room Booking System**
 
-This project is a Hotel Room Booking System developed as part of the UECS2354 Software Testing course for the 202401 assignment. The system supports various functionalities including booking and cancellation of hotel rooms, handling of different member types (VIP, Normal, Non-member), and managing waiting lists.
+This project is a Hotel Room Booking System developed as part of the UECS2354 Software Testing course for the assignment. The system supports various functionalities including booking and cancellation of hotel rooms, handling of different member types (VIP, Normal, Non-member), and managing waiting lists.
 
 **Project Overview**
 
@@ -70,16 +70,12 @@ The application code includes:
 - User class
 - Booking class
 - WaitingList class
+
 The setBooking() method determines room allocation, and the cancelBooking() method handles booking cancellations.
 
 **Test Code**
 
 The test code uses the jUnit Framework and Mockito to verify the functionality of the methods. Test cases are designed to cover all scenarios, using techniques like boundary value analysis and equivalence partitioning.
 
-**Assumptions**
-
-- Additional assumptions made for the application are documented in the assumptions.md file.
-- Status/error checking is implemented to make the program robust.
-- Code is organized with meaningful variable names and liberal use of comments.
 
 
